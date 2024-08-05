@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Papu Launcher (Pre-Alfa)"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/PapuTotem/Launcher"
+mediaTwitterURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/43vrfzDp8W"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/PapuTotem/Launcher"
+supportLink = "https://github.com/PapuTotem/Launcher/issues"
+
+[ejs.welcome]
+welcomeHeader = "¡Gracias por descargar el Papu Launcher!"
+welcomeDescription = "¡Todo el equipo te agradece tu participación!"
+welcomeDescCTA = "¡Esperamos que pases un rato agradable en el servidor!"
