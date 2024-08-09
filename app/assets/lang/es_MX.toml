@@ -108,8 +108,8 @@ dataDirectoryDesc = "All game files and local Java installations will be stored 
 aboutTabHeaderText = "About"
 aboutTabHeaderDesc = "View information and release notes for the current version."
 aboutTitle = "{appName}"
-stableRelease = "Stable Release"
-versionText = "Version "
+stableRelease = "Versión Estable"
+versionText = "Versión "
 sourceGithub = "Source (GitHub)"
 support = "Support"
 devToolsConsole = "DevTools Console"
@@ -127,7 +127,7 @@ updateReleaseNotes = "Update Release Notes"
 waitingText = "Waiting for Microsoft.."
 
 [ejs.welcome]
-continueButton = "VAMOS PAPU"
+continueButton = "VAMOS PAPU :V"
 
 
 [js.discord]
@@ -267,8 +267,8 @@ requiresJava = "Requires Java {major} x64."
 availableOptions = "Available Options for Java {major} (HotSpot VM)"
 
 [js.settings.about]
-preReleaseTitle = "Pre-release"
-stableReleaseTitle = "Stable Release"
+preReleaseTitle = "Pre-versión"
+stableReleaseTitle = "Versión Estable"
 releaseNotesFailed = "Failed to load release notes."
 
 [js.settings.updates]

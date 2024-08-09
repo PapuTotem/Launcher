@@ -707,6 +707,7 @@ function slide_(up){
         newsBtn.style.top = '124vh'
         newsContainer.style.top = '0px'
         newsContainer.style.opacity = '1'
+        launch_button.style.height = '0px'
         //date.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric'})
         //landingContainer.style.background = 'rgba(29, 29, 29, 0.55)'
         landingContainer.style.backgroundColor = '#191919'
@@ -724,14 +725,15 @@ function slide_(up){
         landingContainer.style.background = null
         lCLCenter.style.transition = null
         newsBtn.style.transition = null
-        newsContainer.style.transition = 'all 1s'
+        newsContainer.style.transition = 'all 0.6s'
         newsContainer.style.top = '100%'
         newsContainer.style.opacity = '0'
         lCUpper.style.top = '0px'
         lCLLeft.style.top = '0px'
         lCLCenter.style.top = '0px'
         lCLRight.style.top = '0px'
-        newsBtn.style.top = '10px'
+        newsBtn.style.top = '-24px'
+        launch_button.style.height = '58px'
     }
 }
 
@@ -960,7 +962,7 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
-const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audio = new Audio("assets/images/click.ogg");
 const buttons = document.querySelectorAll("#newsButton");
 
 buttons.forEach(button => {

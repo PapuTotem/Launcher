@@ -86,17 +86,18 @@
         </div>
         <div id="center">
             <div class="bot_wrapper">
-                <div id="content">
+                <div id="content" style="top: -24px;">
+                    <button id="launch_button"></button>
                     <button id="newsButton">
                         <!--<img src="assets/images/icons/arrow.svg" id="newsButtonSVG"/>-->
                         <div id="newsButtonAlert" style="display: none;"></div>
+                        &#10;<span id="newsButtonText"><%- lang('landing.newsButton') %></span>
                         <svg id="newsButtonSVG" viewBox="0 0 24.87 13.97">
                             <defs>
                                 <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;}</style>
                             </defs>
                             <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
                         </svg>
-                        &#10;<span id="newsButtonText"><%- lang('landing.newsButton') %></span>
                     </button>
                 </div>
             </div>
@@ -104,8 +105,6 @@
         <div id="right">
             <div class="bot_wrapper">
                 <div id="launch_content">
-                    <button id="launch_button"><%- lang('landing.launchButton') %></button>
-                    <div class="bot_divider"></div>
                     <button id="server_selection_button" class="bot_label"><%- lang('landing.launchButtonPlaceholder') %></button>
                 </div>
                 <div id="launch_details">
@@ -123,7 +122,7 @@
     </div>
     <div id="newsContainer">
         <div id="newsContent" article="-1" style="display: none;">
-            <div id="newsStatusContainer">
+            <div id="newsStatusContainer" style="display: none;">
                 <div id="newsStatusContent">
                     <div id="newsTitleContainer">
                         <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
@@ -158,14 +157,14 @@
                     </button>
                 </div>
             </div>
-            <div id="newsArticleContainer">
+            <div id="newsArticleContainer" style="display: none;">
                 <div id="newsArticleContent">
                     <div id="newsArticleContentScrollable">
                         <!-- Article Content -->
                     </div>
                 </div>
             </div>
-            <!--<iframe src="http://papusafio.atwebpages.com/" frameborder="0"></iframe>-->
+            <iframe src="https://papulauncher-sitio.vercel.app/posts/" width="100%" frameborder="0"></iframe>
         </div>
         <div id="newsErrorContainer">
             <div id="newsErrorLoading">

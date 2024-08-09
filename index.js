@@ -229,14 +229,17 @@ function createWindow() {
     win = new BrowserWindow({
         width: 1366,
         height: 768,
+        minWidth:1280,
+        minHeight:720,
         icon: getPlatformIcon('SealCircle'),
         frame: false,
+        transparent: true,
         webPreferences: {
             preload: path.join(__dirname, 'app', 'assets', 'js', 'preloader.js'),
             nodeIntegration: true,
             contextIsolation: false
         },
-        backgroundColor: '#171614'
+        //backgroundColor: '#000000'
     })
     remoteMain.enable(win.webContents)
 
