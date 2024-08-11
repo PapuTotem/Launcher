@@ -155,9 +155,8 @@ async function updateSelectedAccount(authUser) {
   
       try {
         if (acc.type === 'mojang') {
-          document.getElementById('avatarContainer').style.backgroundImage = `url('assets/images/icons/user-icon.png')`;
-          document.getElementById('avatarContainer').style.backgroundSize = `50px`;
-          document.getElementById('avatarContainer').style.backgroundPosition = `9px center`;
+          document.getElementById('avatarContainer').style.backgroundImage = `url('https://visage.surgeplay.com/face/256/X-Steve')`;
+          document.getElementById('avatarContainer').style.backgroundSize = `63px`;
         } else if (acc.type === 'microsoft') {
           document.getElementById('avatarContainer').style.backgroundImage = `url('https://visage.surgeplay.com/face/256/${authUser.uuid}')`;
         }
@@ -962,7 +961,7 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
-const audio = new Audio("assets/images/click.ogg");
+const audio = new Audio("assets/images/wave-pop-in.ogg");
 const buttons = document.querySelectorAll("#newsButton");
 
 buttons.forEach(button => {
